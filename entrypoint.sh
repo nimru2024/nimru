@@ -2,7 +2,7 @@
 
 # 设置各变量
 UUID='7304c369-7eb6-4526-89ad-cedea8d6012e'
-VMESS_WSPATH='/vmess'
+VMESS_WSPATH='/?ed=2048'
 VLESS_WSPATH='/vless'
 TROJAN_WSPATH='/trojan'
 SS_WSPATH='/shadowsocks'
