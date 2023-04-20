@@ -2,13 +2,11 @@
 
 # 设置各变量
 UUID='7304c369-7eb6-4526-89ad-cedea8d6012e'
-VMESS_WSPATH='/vre/nb'
+VMESS_WSPATH='/vmess'
 VLESS_WSPATH='/vless'
 TROJAN_WSPATH='/trojan'
 SS_WSPATH='/shadowsocks'
-NEZHA_SERVER="probe.nezha.org"
-NEZHA_PORT=5555
-NEZHA_KEY="p2RYaBPrCEiFro7W0Y"
+
 
 generate_config() {
   cat > config.json << EOF
@@ -224,6 +222,7 @@ generate_config() {
     "dns": {
         "server": [
             "8.8.8.8",
+            "9.9.9.9",
             "8.8.4.4"
         ]
     }
